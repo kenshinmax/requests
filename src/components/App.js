@@ -1,15 +1,13 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import { Container } from 'react-bootstrap';
+
 import Section from './section'
 
-
-
 const App = () => {
-
-
     return(
-        <React.Fragment>
-            <Section title='News Feed' iconClass='newspaper'/> 
-        </React.Fragment>
+        <Container>
+            <Section /> 
+        </Container>
     )
 }
 

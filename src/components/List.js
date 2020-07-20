@@ -1,20 +1,23 @@
 import React from 'react';
+import ListGroup from 'react-bootstrap/ListGroup';
+
 
 const List = () => {
     return (
-        <div class="card" id="list" data-list='{"valueNames": ["name"], 
+        <div className="card" id="list" data-list='{"valueNames": ["name"], 
         "page": 3, "pagination": {"paginationClass": 
         "list-pagination"}}'>
+        <ListGroup>
+          
+            <ListGroup.Item>Cras justo odio</ListGroup.Item>
+            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+            <ListGroup.Item>Morbi leo risus</ListGroup.Item>
+            <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+         </ListGroup>
 
-            <ul className="list">
-                <li className="name">Casey Fyfe</li>
-                <li className="name">Jane Roe</li>
-                <li className="name">Casey Fyfe</li>
-                <li className="name">Jane Roe</li>
-            </ul>
 
-
-            <ul className="list-pagination"></ul> 
+            
         </div>
         )    
 } 
