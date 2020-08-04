@@ -1,7 +1,7 @@
 {
 	"translatorTextKey": "",
 	"supportedLocales": [],
-	"liferayDir": "/Users/cliffsanchez/projects/liferay/liferay-dxp-7.2-sp1-feature-set-V2/",
+	"liferayDir": "/Users/cliffsanchez/projects/liferay/bundles/liferay-dxp-7.2-sp1-feature-set-V2/",
 	"webpack": {
 		"rules": [
 			{

@@ -8,6 +8,12 @@ const Tasks = () => {
         { id: "004", name: "View Offer Approval",  status: "In-Progress", dueDate: "Feb-02-2020" },
         { id: "005", name: "New Hire Manager Survey",  status: "In-Progress", dueDate: "Feb-12-2020" }
   ];
+  
+  var options = {
+    valueNames: [ 'name', 'status' ]
+  };
+
+
   const listItems = data.map((item) => 
          <tr>   
             <td>{item.id}</td>
